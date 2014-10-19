@@ -27,11 +27,21 @@
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<link rel="shortcut icon" href="favicon.ico" >
 
 </head>
 
 <body>
+<script type="text/javascript">
+    window._idl = {};
+    _idl.variant = "modal";
+    (function() {
+        var idl = document.createElement('script');
+        idl.type = 'text/javascript';
+        idl.async = true;
+        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
+        document.getElementsByTagName('body')[0].appendChild(idl);
+    })();</script>
 
 	<div id="preloader">      
       <div id="status">
@@ -202,7 +212,7 @@
 
             <ul class="copyright">
                <li>&copy; Copyright <script>document.write(new Date().getFullYear())</script> Kelly Harper</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>          
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li><br> <a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/footer_badge.png" alt="Member of The Internet Defense League"/></a>          
             </ul>
 
          </div>          
