@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Kelly Harper</title>
+	<meta name="description" content="The personal website of Kelly Harper">
+	<meta name="author" content="Kelly Harper">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">    
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" >
+
+</head>
+
+<body>
+<script type="text/javascript">
+    window._idl = {};
+    _idl.variant = "modal";
+    (function() {
+        var idl = document.createElement('script');
+        idl.type = 'text/javascript';
+        idl.async = true;
+        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
+        document.getElementsByTagName('body')[0].appendChild(idl);
+    })();</script>
+
+	<div id="preloader">      
+      <div id="status">
+         <img src="images/preloader.gif" height="192" width="28" alt="Loading awesomeness...">
+      </div>
+   </div>
+
+   <!-- Intro Section
+   ================================================== -->
+   <section id="intro">
+
+   	<header class="row">	 
+
+		   <nav id="nav-wrap">
+
+		      <a class="menu-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+			   <a class="menu-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+		      <ul id="nav" class="nav">
+		         <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+		         <li><a class="smoothscroll" href="#about">About Me</a></li>			         
+			      <li><a class="smoothscroll" href="#links">Links</a></li>
+		      </ul> <!-- end #nav -->
+
+		   </nav> <!-- end #nav-wrap --> 	        
+
+   	</header> <!-- Header End -->   	
+
+   	<div  id="main" class="row">
+
+	   	<div class="twelve columns">
+	   			
+	   		<h1>Hi hi! I'm Kelly!</h1>
+
+	   		<p>Hello there, my name is Kelly Harper. You may know me from the Internets, and it appears you've found my personal site, enjoy!</p>
+
+	   		<h5>And remember, you're awesome!</h5>			
+
+
+	         <ul class="social">
+	            <li><a href="https://twitter.com/nerdpositive"><i class="fa fa-twitter"></i></a></li>
+	            <li><a href="https://plus.google.com/103676379636877600976/posts"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+
+         </div> 
+
+      </div> <!-- main end -->    	
+
+   </section> <!-- end intro section -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row section-header">
+
+      	<div class="twelve columns">	
+
+      		<div class="icon-wrap">
+            	<i class="fa fa-group"></i>
+         	</div>
+
+	         <h1>About Me</h1>
+
+	         <p class="lead">I'm a 23 year old trans lady programmer who focuses on making little things to make the world cuter, happpier, and... more odd. 
+	         </p>
+
+         </div>
+
+      </div> <!-- end section-header -->             	
+
+      <div class="row section-content">
+				
+			<div class="six columns">
+		      <h3>Flirtbot</h3>
+
+		      <p>Beep boop beep, let the flirting begin! Flirtbot is an open source PHP and Twitter bot, with the nitty gritty and web frontend made by me and the Twitter bot made by <a href="https://twitter.com/FluffyPira">@FluffyPira</a>. 
+		      </p>
+	      </div>
+
+	      <div class="six columns">
+		      <h3>InsomniaticA</h3>
+
+		      <p>InsomniaticA is a very short text adventure that gives a bit of a social commentary on the issues of rape, pedophilia, sexual assault, and suicide. I could've made it in a game jam, but I didn't.
+		      </p>
+	      </div>            
+
+<div class="six columns">
+		      <h3>Pokemon Showdown</h3>
+
+		      <p>For you competitive Pokemon players, you most likely know about a little program called Pokemon Showdown which fully simulates Pokemon battles. I happen to have made many teams for this program, most of which I created not trying to be a good team, but more trying to <a href="http://harper.postach.io/making-competitive-fun">make competitive more fun!</a>
+		      </p>
+	      </div>
+
+      </div> <!-- end section-content -->  
+
+      	   	
+
+   </section> <!-- About Section End-->    
+
+
+   <!-- Links Section
+   ================================================== -->
+	<center><section id="links">
+
+		<div class="linkerino">		
+			
+			<div class="row l-details">		           		         
+
+			   <div class="columns">
+
+				   <h3>Flirtbot</h3>
+				   <p><a href="http://bot.flirt.lc?ref=gitty">Click here!</a>
+					</p>
+
+			   </div> 
+
+			   <div class="columns">
+
+				   <h3>Flirtbot Source</h3>
+				   <p><a href="https://bitbucket.org/flirtbot/flirtbot">Web Bot Source</a><br><a href="https://bitbucket.org/flirtbot/flirtbot/src/49f144c16d4aa71ba68cfa05fa5e1145ca6e9f29/Twitter.rb?at=master">Twitter Bot Source</a>
+				   </p>
+
+			   </div>	 
+
+			   <div class="columns">
+
+				   <h3>InsomniaticA</h3>
+				   <p><a href="http://textadventures.co.uk/games/view/w2r04e_s4e_pfzq982dfyw/insomniatica">Play it here!</a>
+				   </p>
+
+			   </div>
+
+<div class="columns">
+
+				   <h3>My Personal Blog</h3>
+				   <p><a href="http://harper.postach.io/">Why not take a look?</a>
+					</p>
+
+			   </div>
+
+<div class="columns-end">
+
+				   <h3>Profile Pictures</h3>
+				   <p><a href="http://harper.postach.io/profile-pictures">What a work of art!</a>
+					</p>
+
+			   </div>          	
+
+		 	</div> <!-- end contact-details -->		  
+
+		</div> <!-- end contacts -->
+
+
+
+	   </div> <!-- end map -->
+
+	</section> <!-- end location section --></center><br>
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">            
+
+            <ul class="copyright">
+               <li>&copy; Copyright <script>document.write(new Date().getFullYear())</script> Kelly Harper</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li><br> <a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/footer_badge.png" alt="Member of The Internet Defense League"/></a>          
+            </ul>
+
+         </div>          
+
+      </div>
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#intro"><i class="icon-up-open"></i></a></div>
+
+   </footer> <!-- Footer End-->   
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+	<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+   <script src="js/gmaps.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.countdown.js"></script>
+   <script src="js/jquery.placeholder.js"></script>
+   <script src="js/backstretch.js"></script>  
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
