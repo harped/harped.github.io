@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
    padding-bottom: 102px;   
    min-height: 900px;
    width: 100%;
-   background: #161415 url(../images/'<?php $a = array('header-background.jpg', 'bg2.jpg'); echo $a[array_rand($a)];?>') no-repeat center center;
+   background: #161415 url(../images/header-background.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;   
 }
@@ -483,4 +483,4 @@ footer .copyright  li:first-child:before {
  	border-radius: 3px;
 }
 #go-top a:hover { background: #165622; }
-
+
