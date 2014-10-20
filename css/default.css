@@ -51,8 +51,8 @@ e. Others
    position: absolute;
    left: 50%;
    top: 50%;
-   width: 64px;
-   height: 64px;
+   width: 100%;
+   height: 100%;
    margin: -32px 0 0 -32px;  
    padding: 0;    
 }
@@ -844,4 +844,4 @@ properly.
 
 
 
-
+
