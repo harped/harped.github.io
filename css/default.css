@@ -49,10 +49,10 @@ e. Others
 }
 #status  {    
    position: absolute;
-   left: 0%;
-   top: 0%;
-   width: 100%;
-   height: 100%;  
+   left: 50%;
+   top: 50%;
+   width: 499px;
+   height: 370px;  
    padding: 0;    
 }
 
