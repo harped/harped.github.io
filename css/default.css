@@ -45,8 +45,8 @@ e. Others
    bottom: 0;
    background: #fff;
    z-index: 99999;
-   height: 370px;
-   width: 499px;
+   height: 100%;
+   width: 100%;
 }
 #status  {    
    position: absolute;
