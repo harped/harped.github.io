@@ -34,6 +34,11 @@
 
 <body>
 <script type="text/javascript">
+function confirm_alert(node) {
+    return confirm("My Telegram is \nkarpie\nDon't know what Telegram is? Click OK to find out more about Telegram.");
+}
+</script>
+<script type="text/javascript">
     window._idl = {};
     _idl.variant = "modal";
     (function() {
@@ -85,6 +90,7 @@
 	         <ul class="social">
 	            <li><a href="https://twitter.com/nerdpositive"><i class="fa fa-twitter"></i></a></li>
 	            <li><a href="https://plus.google.com/103676379636877600976/posts"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.telegram.org" onclick="return confirm_alert(this);">Telegram</a></li>
             </ul>
 
          </div> 
